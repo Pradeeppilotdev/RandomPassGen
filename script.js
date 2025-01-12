@@ -25,3 +25,6 @@ function copypassword(){
     document.execCommand("copy");
     
 }
+function cancelpassword(){
+    passwordbox.value = "";
+}
