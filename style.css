@@ -5,19 +5,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color: hsl(273, 87%, 63%);
+    background-color:hsl(210, 50%, 95%);
     color: white;
 }
 .container{
     margin: 12%;
     width: 90%;
+    color:hsla(0, 0%, 20%, 0.596) ;
     max-width: 700px;
 }
 .display{
     width: 100%;
     margin-top: 50px;
     margin-bottom:30px;
-    background-color: rgb(236, 138, 234);
+    background-color: hsl(210, 100%, 20%);
     color: #333;
     display: flex;
     align-items: center;
@@ -31,8 +32,8 @@ body{
     font-size: 45px;
 }
 .container h1 span{
-    color: hsl(285, 87%, 36%);
-    border-bottom: 4px solid hsl(285, 87%, 36%) ;
+    color: hsl(0, 0%, 20%);
+    border-bottom: 4px solid hsl(0, 0%, 20%) ;
     padding-bottom: 7px;
 }
 .container img{
@@ -43,7 +44,8 @@ body{
     border: 0;
     outline: 0;
     font-size: 24px;
-    background-color: rgb(236, 138, 234);
+    background-color: hsl(210, 100%, 20%);
+    color: antiquewhite;
 }
 .container button img{
     width: 50px;
@@ -52,8 +54,8 @@ body{
 .container button{
     border: 0;
     outline: 0;
-    background-color:rgb(236, 138, 234) ;
-    color: rgb(100, 96, 96);
+    background-color:hsl(210, 100%, 20%) ;
+    color: hsla(0, 0%, 100%, 0.877);
     font-size: 22px;
     cursor: pointer;
     font-weight: 300;
