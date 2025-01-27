@@ -74,3 +74,15 @@ body{
 .passbutton button{
     flex: 1;
 }
+/*mobile view*/
+@media screen and (max-width:600px) {
+   .display input{
+    border: 0;
+    outline: 0;
+    size: 10;
+    font-size: 24px;
+   }
+   .container img{
+    width: 30px;
+   }
+}
