@@ -77,10 +77,15 @@ body{
 /*mobile view*/
 @media screen and (max-width:600px) {
    .display input{
-    border: 0;
-    outline: 0;
+    border: 10;
+    outline: 10;
     size: 10;
-    font-size: 24px;
+    font-size: 20px;
+    width:50%;
+   }
+   .passbutton{
+    width: 50%;
+    gap: 8px;
    }
    .container img{
     width: 30px;
